@@ -1,0 +1,13 @@
+1. Surf via Chrome of FireFox naar http://www.thomasmore.be/. Bekijk de broncode eens.
+
+2. Kun je eruit halen via welk CMS-systeem deze website ontworpen is?
+    -Dit is gemaakt met Drupal 9
+
+3. Welke “description” wordt hier meegegeven en voor welke sociale netwerken?
+
+4. Valideer de webpagina. Is deze pagina valide?
+    -Nee deze pagina is niet valide
+
+5. In de code staat iets met favicon <link rel="icon" href="***/favicon/***.png" />. Zoek op het internet wat dit stukje code betekent. Waar zie je het effect van deze lijn code in Chrome?
+    -Favicon is iets waarmee je een icoon/logo op je website kan zetten.
+    -Dit effect zie je overal waar het logo van thomasmore staat.
