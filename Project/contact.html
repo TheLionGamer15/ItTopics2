@@ -4,48 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
     <title>Contact</title>
 </head>
 <body>
-    <ul>
-        <li><a href="Index.html">Home</a></li>
-        <li><a href="cv.html">Curriculum Vitae</a></li>
-        <li><a href="hobbys.html">Hobby's</a></li>
-        <li><a href="ervaringen.html">Ervaringen</a></li>
-        <li><a href="contact.html">Contacteer Mij!</a></li>
-    </ul>
-    <hr>
-    <div>
-        <img src="" alt="Foto van mezelf">
-    </div>
-    <div>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde aliquam, incidunt mollitia odit quod blanditiis alias exercitationem hic vero iure! Omnis provident veniam quam neque est quisquam natus iure quo?
-    </div>
-    <form method="post" action="">
-        <div>
-            <label for="Voornaam"> Voornaam:
-                <input type="text" id="Voornaam" name="Voornaam">
-            </label>
-        </div>
-        <div>
-            <label for="Familienaam"> Familienaam:
-                <input type="text" id="Familienaam" name="Familienaam">
-            </label>
-        </div>
-        <div>
-            <label for="Email"> Email:
-                <input type="email" id="Email" name="Email">
-            </label>
-        </div>
-        <div>
-            <label for="Bericht"> Bericht:
-                <textarea id="Bericht" rows="10" cols="15"></textarea>
-            </label>
-        </div>
-        <div>
-                <input type="button" id="Versturen" value="Versturen">
-        </div>
+<div class="container">
+    <nav class="navbar navbar-expand-sm bg-light">
 
-    </form>
+        <div class="container-fluid">
+          <!-- Links -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="Index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cv.html">Curriculum Vitae</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hobbys.html">Hobby's</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="ervaringen.html">Ervaringen</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contacteer Mij!</a>
+              </li>
+          </ul>
+        </div>
+    </nav>
+    <hr>
+    
+    <form class="row g-3">
+        <div class="col-md-4">
+          <label for="validationDefault01" class="form-label">Voornaam</label>
+          <input type="text" class="form-control" id="validationDefault01"  required>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefault02" class="form-label">Achternaam</label>
+          <input type="text" class="form-control" id="validationDefault02"  required>
+        </div>
+        <div class="col-md-4">
+            <label for="validationDefault03" class="form-label">Mail</label>
+            <input type="email" class="form-control" id="validationDefault03"  required>
+          </div>
+        <div class="col-md-3">
+          <label for="validationDefault04" class="form-label">Vaardigheden</label>
+          <select class="form-select" id="validationDefault04" required>
+            <option selected disabled value="">Kies...</option>
+            <option>Web ontwikkeling</option>
+            <option>Programmeren</option>
+            <option>Databanken</option>
+            <option>GIT</option>
+            <option>Systeembeheer</option>
+            <option>Netwerkbeheer</option>
+            <option>Linux Server</option>
+            <option>Windows Server</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault05" class="form-label">Vraag</label>
+          <textarea class="form-control" id="validationDefault05" rows="3"></textarea>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Versturen</button>
+        </div>
+      </form>
+</div>
+<footer class="footer">Stef Khelili&copy;</footer>
 </body>
 </html>

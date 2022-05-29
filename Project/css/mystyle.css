@@ -1,0 +1,26 @@
+body{
+    color: black;
+    font-family: 'Times New Roman', serif;
+}
+nav{
+    font-size: 18px;
+}
+.footer{
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: lightgray;
+    text-align: center;
+}
+.listtitel{
+    font-size: 24px;
+    font-weight: bold;
+}
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+  }
