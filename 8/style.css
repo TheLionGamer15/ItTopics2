@@ -1,0 +1,16 @@
+header{
+    background-color: lightblue;
+    color:white;
+}
+aside{
+    background-color: lightgreen;
+    color:white;
+}
+main{
+    background-color:black;
+    color:white;
+}
+footer{
+    background-color: orange;
+    color:white;
+}

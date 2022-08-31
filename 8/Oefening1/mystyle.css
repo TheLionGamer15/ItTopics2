@@ -1,0 +1,33 @@
+body{
+    font-family: 'Square Peg', arial;
+   
+}
+.noord{
+   position: absolute;
+   top:10px;
+   left:50%;
+   transform:translate(50%,0);
+}
+.oost{
+    
+}
+.zuid{
+   
+    
+}
+.west{
+   
+
+}
+.img{
+    background:url(img/kompas.jpg) no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
+}
+.lbl{
+    color:white;
+    font-size:48px;
+    font-weight: bold;
+
+
+}
